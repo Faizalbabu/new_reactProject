@@ -13,8 +13,8 @@ function Navbar(){
             <div class="line3"></div>
         </div>
         <ul class="nav-links">
-            <li><a href="">Home</a></li>
-            <li><a href="">Profile</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/ProfilePage">Profile</a></li>
             {/* <li><button class="login-button" href="#">Login</button></li> */}
             {/* <li><button class="join-button" href="#">Join</button></li> */}
         </ul>

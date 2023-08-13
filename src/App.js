@@ -1,7 +1,8 @@
 import './App.css';
-import FirstPage from './pages/FirstPage';
+import HomePage from './pages/HomePage';
 import SecondPage from './pages/SecondPage';
 import Navbar from './pages/Navbar';
+import ProfilePage from './pages/ProfilePage';
 import { BrowserRouter , Routes , Route } from 'react-router-dom';
 
 function App() {
@@ -11,8 +12,8 @@ function App() {
       <Navbar/>
       {/* <FirstPage/> */}
       <Routes>
-        <Route path="/" element={<FirstPage/>}/>
-        <Route path="SecondPage" element={<SecondPage/>}/>
+        <Route index path="/" element={<HomePage/>}/>
+        <Route path="ProfilePage" element={<ProfilePage/>}/>
       </Routes>
       </BrowserRouter>
     </div>

@@ -33,7 +33,7 @@ nav{
 .nav-links{
     display: flex;
     list-style: none; 
-    width: 88vw;
+    width: 100vw;
     padding: 0 26.8vw;
     justify-content: space-evenly;
     align-items: center;
